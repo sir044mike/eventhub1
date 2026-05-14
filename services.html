@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventHub - Services</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Services Page Specific Styles */
+    .services-header {
+      background: linear-gradient(135deg, rgba(244, 162, 97, 0.8), rgba(231, 111, 81, 0.8)), url('assets/images/services-bg.jpg') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+
+    .services-header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .services-header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .service-categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      padding: 4rem 2rem;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
+      max-width: 300px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-card img {
+      width: 80px;
+      margin-bottom: 1rem;
+    }
+
+    .service-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .service-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .why-choose-us {
+      background: linear-gradient(135deg, #f9f9f9, #ffffff);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .why-choose-us h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .why-choose-us p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, rgba(231, 111, 81, 0.8), rgba(244, 162, 97, 0.8));
+      color: #fff;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .cta h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .cta p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta button {
+      background: #fff;
+      color: #e76f51;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .cta button:hover {
+      background: #f4a261;
+      color: #fff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">EventHub</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Services Header Section -->
+    <section class="services-header">
+      <h1>Our Services</h1>
+      <p>Explore our wide range of event management services designed to make your events unforgettable.</p>
+    </section>
+
+    <!-- Service Categories Section -->
+    <section class="service-categories">
+      <div class="service-card">
+        <img src="assets/images/event-planning.png" alt="Event Planning">
+        <h3>Event Planning</h3>
+        <p>We handle every detail of your event, from concept to execution.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/vendor-management.png" alt="Vendor Management">
+        <h3>Vendor Management</h3>
+        <p>We work with trusted vendors to provide the best services for your event.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/corporate-events.png" alt="Corporate Events">
+        <h3>Corporate Events</h3>
+        <p>We specialize in organizing professional corporate events.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/ticketing.png" alt="Ticketing Services">
+        <h3>Ticketing Services</h3>
+        <p>We provide seamless ticketing solutions for your events.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/wedding-planning.png" alt="Wedding Planning">
+        <h3>Wedding Planning</h3>
+        <p>Make your special day stress-free with our wedding planning services.</p>
+      </div>
+      <div class="service-card">
+        <img src="assets/images/entertainment.png" alt="Entertainment">
+        <h3>Entertainment</h3>
+        <p>We bring the best entertainment options to your events.</p>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+      <h2>Why Choose EventHub?</h2>
+      <p>At EventHub, we are committed to delivering exceptional services that exceed your expectations. Our team of experts ensures that every event is unique, memorable, and stress-free.</p>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+      <h2>Ready to Plan Your Next Event?</h2>
+      <p>Contact us today to get started on creating an unforgettable experience.</p>
+      <button onclick="location.href='contact.html'">Get in Touch</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 EventHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
