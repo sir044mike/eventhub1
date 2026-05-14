@@ -1,0 +1,1 @@
+EventHub is a web-based platform designed to help companies manage internal events, vendor interactions, and client registrations in a single system. It simplifies event planning, coordination, and participation tracking.
